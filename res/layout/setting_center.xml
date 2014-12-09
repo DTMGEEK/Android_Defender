@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        >
+        
+        <LinearLayout 
+            android:layout_width="@dimen/setting_center_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            >
+            
+            <TextView 
+                android:layout_width="@dimen/setting_center_layout_width"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_center_tv_text"
+                android:textSize="@dimen/setting_center_layout_textsize"
+                />
+            
+             <TextView 
+                android:id="@+id/setting_applock_tv"
+                android:layout_width="@dimen/setting_center_layout_width"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_center_tv_text_unservice"
+                android:textSize="@dimen/setting_center_layout_unserviec_textsize"
+                />
+            
+            
+        </LinearLayout>
+        
+        <CheckBox
+            android:id="@+id/setting_applock_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" 
+            />
+        
+    </RelativeLayout>
+
+    
+</LinearLayout>

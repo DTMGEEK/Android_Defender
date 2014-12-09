@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dip"
+    android:layout_height="180dip"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/normal_entry_dialog_tv_titile"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.81"
+        android:background="@color/normal_entry_dialog_llbackgroundcolor"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/normal_entry_dialog_tv_password" />
+
+        <EditText
+            android:id="@+id/et_normal_entry_dialog_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dip"
+        android:layout_height="76dp"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_normal_dialog_ok"
+            android:layout_width="140dip"
+            android:layout_height="40dip"
+            android:background="@drawable/button_selector"
+            android:text="@string/normal_entry_dialog_bn_confirm" />
+
+        <Button
+            android:id="@+id/bt_normal_dialog_cancel"
+            android:layout_width="140dip"
+            android:layout_height="40dip"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/button_selector"
+            android:text="@string/normal_entry_dialog_bn_cancel" />
+    </LinearLayout>
+
+</LinearLayout>

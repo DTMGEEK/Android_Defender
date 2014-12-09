@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dip" 
+	android:background="@drawable/item_background_selector"
+	android:gravity="center_horizontal"    
+>
+
+    <ImageView 
+        android:id="@+id/lock_app_icon"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher"
+        />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="65dip"
+        android:layout_toRightOf="@id/lock_app_icon"
+        android:orientation="vertical"
+        >
+        
+        <TextView 
+            android:id="@+id/lock_app_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+			android:text="@string/lock_app_item_tv_name_text"
+			android:textColor="@android:color/white"
+			android:textSize="@dimen/lock_app_item_text_size"
+            />
+
+        <TextView 
+            android:id="@+id/lock_app_tv_packname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+			android:text="@string/lock_app_item_tv_package_text"
+			android:textColor="@android:color/white"
+			android:textSize="@dimen/lock_app_item_text_package_size"
+            />
+        
+    </LinearLayout>
+    
+    
+    <ImageView 
+        android:id="@+id/lock_app_iv"
+        android:layout_width="@dimen/lock_app_item_iv_size"
+        android:layout_height="@dimen/lock_app_item_iv_size"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/unlock"
+        />
+
+</RelativeLayout>

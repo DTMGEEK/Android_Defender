@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+    
+    
+    <TextView 
+        android:layout_width="@dimen/traffic_manager_tv_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="@string/traffic_title_icon"
+        />
+    
+    <TextView 
+        android:layout_width="@dimen/traffic_manager_tv_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="@string/traffic_title_name"
+        />
+    
+    <TextView 
+        android:layout_width="@dimen/traffic_manager_tv_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="@string/traffic_title_upload"
+        />
+    
+     <TextView 
+        android:layout_width="@dimen/traffic_manager_tv_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="@string/traffic_title_download"
+        />
+</LinearLayout>

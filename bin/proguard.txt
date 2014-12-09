@@ -1,0 +1,168 @@
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:19
+# view res/layout/abc_action_bar_decor_include.xml #generated:47
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:29
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:52
+-keep class android.support.v7.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:31
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:40
+# view res/layout/abc_action_mode_bar.xml #generated:19
+-keep class android.support.v7.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:25
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:35
+-keep class android.support.v7.internal.widget.ActionBarView { <init>(...); }
+
+# view res/layout/abc_action_bar_home.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarView$HomeView { <init>(...); }
+
+# view res/layout/abc_action_bar_tabbar.xml #generated:17
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.internal.widget.LinearLayoutICS { <init>(...); }
+
+# view v11\res/layout-v11/abc_action_bar_decor.xml #generated:17
+# view v11\res/layout-v11/abc_simple_decor.xml #generated:17
+-keep class android.support.v7.internal.widget.NativeActionModeAwareLayout { <init>(...); }
+
+# view res/layout/abc_action_bar_tab.xml #generated:17
+-keep class android.support.v7.internal.widget.ScrollingTabContainerView$TabView { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:85
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view AndroidManifest.xml #generated:11
+-keep class android.test.InstrumentationTestRunner { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.example.androiddefprot.MyApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:181
+-keep class com.example.androiddefprot.provider.AppLockProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:156
+-keep class com.example.androiddefprot.receiver.BlackPhoneNumberReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class com.example.androiddefprot.receiver.BootCompleteReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class com.example.androiddefprot.receiver.CallPhoneReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:141
+-keep class com.example.androiddefprot.receiver.LockScreenReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:132
+-keep class com.example.androiddefprot.receiver.MyDeviceAdminReciver { <init>(...); }
+
+# view AndroidManifest.xml #generated:148
+-keep class com.example.androiddefprot.receiver.ProcessWidget { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.example.androiddefprot.receiver.SmsReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:173
+-keep class com.example.androiddefprot.service.AddressServiec { <init>(...); }
+
+# view AndroidManifest.xml #generated:175
+-keep class com.example.androiddefprot.service.BackupSmsService { <init>(...); }
+
+# view AndroidManifest.xml #generated:179
+-keep class com.example.androiddefprot.service.UpdateWidgetService { <init>(...); }
+
+# view AndroidManifest.xml #generated:177
+-keep class com.example.androiddefprot.service.WatchDogService { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.example.androiddefprot.ui.AToolsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.example.androiddefprot.ui.AntiVirutsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:94
+-keep class com.example.androiddefprot.ui.AppDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class com.example.androiddefprot.ui.AppLockActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.example.androiddefprot.ui.AppManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class com.example.androiddefprot.ui.CacheInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class com.example.androiddefprot.ui.CallSmsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class com.example.androiddefprot.ui.CommonNumberActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.example.androiddefprot.ui.ContactInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class com.example.androiddefprot.ui.DragViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class com.example.androiddefprot.ui.LockScreenActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.example.androiddefprot.ui.LostProtectedActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.example.androiddefprot.ui.MainScreenActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.example.androiddefprot.ui.QueryNumberActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class com.example.androiddefprot.ui.SettinCenterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.example.androiddefprot.ui.SetupGuideFourthActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.example.androiddefprot.ui.SetupGuideOneActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.example.androiddefprot.ui.SetupGuideSecondActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.example.androiddefprot.ui.SetupGuideThirdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.example.androiddefprot.ui.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class com.example.androiddefprot.ui.TaskManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class com.example.androiddefprot.ui.TaskSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class com.example.androiddefprot.ui.TrafficManagerActivity { <init>(...); }
+
+# onClick res/layout/task_manager.xml #generated:58
+-keepclassmembers class * { *** killTask(...); }
+
+# onClick res/layout/query_number.xml #generated:16
+-keepclassmembers class * { *** query(...); }
+
+# onClick res/layout/clearsdcard.xml #generated:20
+-keepclassmembers class * { *** start(...); }
+
